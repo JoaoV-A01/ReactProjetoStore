@@ -1,12 +1,37 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Cabecalho from './src/components/cabecalho';
+import Botao from './src/components/botao';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+   <View>
+     <Cabecalho></Cabecalho>
+     <Botao
+       Logo = "game-controller"
+       texto = "Jogos Top de linha de todos os tipos e generos"
+       cor = "#1E90FF"
+       Logo2 = "apps-outline"
+       texto2 = "Aplicativos de todos os tipos"
+       cor2 = "#008B8B"
+     />
+     <Botao
+       Logo = "library-outline"
+       texto = "Livros mais cultos e aleatorios que voce vai encontrar"
+       cor = "#00BFFF"
+       Logo2 = "film-outline"
+       texto2 = "Filmes e Series da mais alta qualidade aprovados pela crtitica e povão"
+       cor2 = "#708090"
+     />
+     <Botao
+       Logo = "musical-notes-outline"
+       texto = "Musicas mais ouvidas do mundo e de todos os generos"
+       cor = "#00CED1"
+       Logo2 = "code-slash-outline"
+       texto2 = "Tudo sobre o universo da programação voce acha aqui"
+       cor2 = "#4682B4"
+     />
+   </View>
   );
 }
 
