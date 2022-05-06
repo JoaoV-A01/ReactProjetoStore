@@ -2,7 +2,7 @@ const JOGOS = [
     {
         id: "01",
         nome: "Subway Surfers",
-        valor: 13.32,
+        valor: "R$13,32",
         imagem: 'subway.jpg'
     },
     {
@@ -13,9 +13,9 @@ const JOGOS = [
     },
     {
         id: "03",
-        nome: "Pokemom GO",
+        nome: "Pokemon GO",
         valor: "gratuito",
-        imagem: "pokemom.jpg"
+        imagem: "pokemon.jpg"
     },
     {
         id: "04",
@@ -29,5 +29,6 @@ const JOGOS = [
         valor: "R$18,00",
         imagem: "dbz.jpg"
     }
+
 ]
 export default JOGOS;
