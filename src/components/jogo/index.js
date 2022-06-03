@@ -15,6 +15,7 @@ export default function Jogos({ titulo, valor, imagem }) {
     );
 }
 const estilo = StyleSheet.create({
+
     containerJogos: {
         backgroundColor: "DCDCDC",
         borderRadius: 10,

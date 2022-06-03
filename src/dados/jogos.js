@@ -1,33 +1,33 @@
 const JOGOS = [
     {
         id: "01",
-        nome: "Subway Surfers",
-        valor: "R$13,32",
-        imagem: 'subway.jpg'
+        nome: "Batima Trevoso",
+        valor: "R$20,00",
+        imagem: 'capa_btmAN.jpg'
     },
     {
         id: "02",
-        nome: "Yugioh Master Duel",
-        valor: "gratuito",
-        imagem: "yugi.jpg"
+        nome: "Fallout 4",
+        valor: "R$101,00",
+        imagem: "capa_Fallout-4.jpg"
     },
     {
         id: "03",
-        nome: "Pokemon GO",
-        valor: "gratuito",
-        imagem: "pokemon.jpg"
+        nome: "Skyrim Dovakin",
+        valor: "Utorrent",
+        imagem: "capa_Skyrim.png"
     },
     {
         id: "04",
         nome: "Hora de Aventura",
-        valor: "R$10,00",
+        valor: "R$69,00",
         imagem: "aventura.jpg"
     },
     {
         id: "05",
-        nome: "Dragon Ball Fight",
-        valor: "R$18,00",
-        imagem: "dbz.jpg"
+        nome: "Bruxão",
+        valor: "R$29,00",
+        imagem: "capa_TW3.png"
     }
 
 ]

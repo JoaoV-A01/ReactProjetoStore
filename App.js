@@ -6,6 +6,7 @@ import JOGOS from './src/dados/jogos';
 import Jogos from './src/components/jogo';
 import NJOGOS from './src/dados/novosJogos';
 import NovosJogos from './src/components/lancamentos';
+import Titulo from './src/components/titulos';
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
      <View>
      <Botao
        Logo = "game-controller"
-       texto = "Jogos Top de linha de todos os tipos e generos"
+       texto = "Jogos Top de linha"
        cor = "#1E90FF"
        Logo2 = "apps-outline"
        texto2 = "Aplicativos de todos os tipos"
@@ -22,22 +23,24 @@ export default function App() {
      />
      <Botao
        Logo = "library-outline"
-       texto = "Livros mais cultos e aleatorios que voce vai encontrar"
+       texto = "Livros aleatorios"
        cor = "#00BFFF"
        Logo2 = "film-outline"
-       texto2 = "Filmes e Series da mais alta qualidade aprovados pela crtitica e povão"
+       texto2 = "Filmes e Series de alta qualidade"
        cor2 = "#708090"
      />
      <Botao
        Logo = "musical-notes-outline"
-       texto = "Musicas mais ouvidas do mundo e de todos os generos"
+       texto = "Musicas mais ouvidas do mundo"
        cor = "#00CED1"
        Logo2 = "code-slash-outline"
-       texto2 = "Tudo sobre o universo da programação voce acha aqui"
+       texto2 = "Tudo sobre o universo da programação"
        cor2 = "#4682B4"
      />
     </View>
     <View>
+
+      <Titulo></Titulo>
       
      <FlatList
         horizontal={true}
@@ -53,6 +56,9 @@ export default function App() {
         )}
      />
      </View>
+
+      <Titulo></Titulo>
+
      <FlatList
         horizontal={true}
         data = {NJOGOS}
@@ -71,6 +77,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+
   container: {
     flex: 1,
     backgroundColor: '#fff',
